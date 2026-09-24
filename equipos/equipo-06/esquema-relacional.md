@@ -3,9 +3,10 @@
 **Dominio de negocio:**
 
 **Integrantes:**
--
--
--
+Rodríguez Prado Isaac                     isarodpra
+Contreras Luna David                       ZackDream
+Ochoa Murillo Santiago Daniel       Santiago8A24
+Perez Juarez Luis Javier                     luissjpp
 
 **Enlace al diagrama E/R del jueves 17** (dbdiagram.io, Mermaid o archivo en el repositorio del proyecto):
 
