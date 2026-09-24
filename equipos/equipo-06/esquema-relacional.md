@@ -34,13 +34,12 @@ INSCRIPCION(**num_socio** → SOCIO, **id_clase** → CLASE, **fecha_inscripcion
 
 ```
 
-## 2. Relaciones N:M y cómo las resolvieron
 
 ## 2. Relaciones N:M y cómo las resolvieron
 
 | Relación en el E/R | Tabla intermedia | Llave primaria de la tabla intermedia | ¿Se puede repetir la misma pareja? ¿Por qué? |
 |---|---|---|---|
-| SOCIO – CLASE (un socio se inscribe a varias clases y una clase tiene muchos socios) | INSCRIPCION | (`num_socio`, `id_clase`, `fecha_inscripcion`) | Sí, en fechas distintas. Un socio puede darse de baja de Yoga en marzo y reinscribirse en junio: es la misma pareja socio-clase, pero son dos inscripciones distintas. Por eso `fecha_inscripcion` forma parte de la llave. Lo que no puede repetirse es la misma pareja con la misma fecha. |
+| SOCIO – CLASE un socio se inscribe a varias clases y una clase tiene muchos socios | INSCRIPCION | (`num_socio`, `id_clase`, `fecha_inscripcion`) | Sí, en fechas distintas. Un socio puede darse de baja de Yoga en marzo y reinscribirse en junio: es la misma pareja socio-clase, pero son dos inscripciones distintas. Por eso `fecha_inscripcion` forma parte de la llave. Lo que no puede repetirse es la misma pareja con la misma fecha. |
 
 ## 3. Relaciones 1:1, recursivas, débiles y multivaluados
 
