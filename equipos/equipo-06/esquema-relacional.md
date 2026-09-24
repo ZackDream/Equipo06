@@ -12,7 +12,21 @@
 ---
 
 ## 1. Esquema relacional
+PLAN(**id_plan**, nombre_plan UNIQUE, costo_mensual)
 
+SOCIO(**num_socio**, nombre, fecha_nacimiento, correo, id_plan → PLAN)
+
+TELEFONO_SOCIO(**num_socio** → SOCIO, **telefono**)
+
+LOCKER(**num_locker**, ubicacion, num_socio? UNIQUE → SOCIO)
+
+INSTRUCTOR(**num_empleado**, nombre, especialidad, num_supervisor? → INSTRUCTOR)
+
+CLASE(**id_clase**, nombre, cupo_maximo, num_empleado → INSTRUCTOR)
+
+SESION(**id_clase** → CLASE, **num_sesion**, fecha, hora_inicio, salon)
+
+INSCRIPCION(**num_socio** → SOCIO, **id_clase** → CLASE, **fecha_inscripcion**, estatus)
 <!-- Transformen su E/R completo con la notación de guias/notacion.md.
      Todas las tablas, todas las PK, todas las FK y el ? donde corresponda. -->
 
