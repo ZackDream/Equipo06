@@ -1,12 +1,12 @@
-# Equipo XX — Esquema relacional del proyecto
+# Equipo 06 — Esquema relacional del proyecto
 
 **Dominio de negocio:**
 
 **Integrantes:**
-Rodríguez Prado Isaac                     isarodpra
-Contreras Luna David                       ZackDream
-Ochoa Murillo Santiago Daniel       Santiago8A24
-Perez Juarez Luis Javier                     luissjpp
+Rodríguez Prado Isaac
+Contreras Luna David
+Ochoa Murillo Santiago Daniel
+Perez Juarez Luis Javier
 
 **Enlace al diagrama E/R del jueves 17** (dbdiagram.io, Mermaid o archivo en el repositorio del proyecto):
 
